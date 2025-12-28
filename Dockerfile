@@ -20,6 +20,5 @@ EXPOSE 8000
 
 # Set environment variables (optional, for production best practices)
 ENV PYTHONUNBUFFERED=1
-
 # Run the FastAPI app with uvicorn
-CMD ["uvicorn", "src.server:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "server:app", "--host", "0.0.0.0", "--port", "8000"]
