@@ -9,3 +9,4 @@ xgboost
 scipy
 pydantic
 uvicorn[standard]
+fastapi
